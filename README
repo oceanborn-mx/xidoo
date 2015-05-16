@@ -1,0 +1,40 @@
+Why do I coded name this project "Xidoo"?
+
+Because was the name of my hometown before the Spaniard
+ocupation in Mexico. A kind of tribute to my people.
+
+So, with this in mind clear, the source files are under the folder
+
+├── src
+│   ├── add_sub_n.sv
+│   ├── comparator.sv
+│   ├── fsm_control.sv
+│   ├── incrementerN.sv
+│   ├── muxN_2_1.sv
+│   ├── muxN_4_1.sv
+│   ├── regN_en_D.sv
+│   ├── single_clk_ram.sv
+│   ├── tst_xidoo.sv
+│   ├── xidoo_datapath.sv
+│   └── xidoo.sv
+
+The top level unit is contained in the file:
+    xidoo.sv
+
+This project was compiled using
+    ModelSim ALTERA STARTER EDITION 10.3d, Fedora 21 x64
+
+And synthesized in
+    Quartus II 64-Bit Wen Edition, Fedora 21 x64
+
+The RTL architectute, schematics are found at
+├── docs
+│   ├── fsm-in.pdf
+│   ├── fsm-out.pdf
+│   ├── top-down-design.pdf
+│   └── xidoo-datapath.pdf
+
+An examples of waveforms gotten were saved in the folder
+
+├── figures
+│   └── fig-1-gcd.bmp
