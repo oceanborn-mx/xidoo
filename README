@@ -1,9 +1,4 @@
-Why do I coded name this project "Xidoo"?
-
-Because was the name of my hometown before the Spaniard
-ocupation in Mexico. A kind of tribute to my people.
-
-So, with this in mind clear, the source files are under the folder
+Welcome to the Xidoo project, the source files can be found in the folder
 
 ├── src
 │   ├── add_sub_n.sv
